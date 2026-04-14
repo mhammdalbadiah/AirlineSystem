@@ -4,7 +4,7 @@ A C++ console application for managing airline data using three core data struct
 
 ---
 
-## 👥 Team
+##  Team
 
 | Name | Role |
 |---|---|
@@ -16,7 +16,7 @@ A C++ console application for managing airline data using three core data struct
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 AirlineSystem/
@@ -42,7 +42,7 @@ AirlineSystem/
 
 ---
 
-## 🗂️ Data Types
+##  Data Types
 
 The system manages 4 data types across all data structures:
 
@@ -79,7 +79,7 @@ The system manages 4 data types across all data structures:
 
 ---
 
-## 🧱 Data Structures
+##  Data Structures
 
 ### Linked List (Part 1)
 A singly linked list that supports:
@@ -107,7 +107,7 @@ Follows **FIFO** (First In, First Out) using `front` and `back` pointers:
 
 ---
 
-## 🔨 Build & Run
+##  Build & Run
 
 ### Requirements
 - `g++` with C++17 support
@@ -130,7 +130,7 @@ make clean
 
 ---
 
-## 🖥️ Menu Structure
+##  Menu Structure
 
 ```
 Main Menu
@@ -159,7 +159,7 @@ Each sub-menu offers: Display, Insert/Push/Enqueue, Delete/Pop/Dequeue, Peek/Mod
 
 ---
 
-## ✅ Input Validation
+##  Input Validation
 
 All setter functions include validation before accepting input:
 - Empty input is rejected
@@ -171,7 +171,7 @@ All setter functions include validation before accepting input:
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - All data structures are **generic templates** (`template <typename T>`) and work with any of the 4 data types
 - Header files use `#pragma once` to prevent double inclusion
