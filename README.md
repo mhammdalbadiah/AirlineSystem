@@ -12,7 +12,7 @@ A C++ console application for managing airline data using three core data struct
 | Othman Al-Thabit | Developer |
 | Rakan Al-Harbi | Developer |
 | Abdullah Al-Nooh | Developer |
-| Ahmed Al-Otibi | Developer |
+| Ahmed Alotaibi | Developer |
 
 ---
 
