@@ -3,26 +3,7 @@
 #pragma once 
 #include "LinkedList.h" 
 
-/*
-
-
-    A Stack works on LIFO principle Last In , First Out
-    We implement the Stack using the same Node structure from Part 1
-    The top of the stack is the most recently pushed item
-
-    Stack operations supported :
-        Push   -> Insert an item at the top
-        Pop    -> Remove the item at the top
-        Peek   -> View the item at the top without removing it
-        Display -> Show all items from top to bottom
-        Find   -> Search for an item by its key
-        isEmpty -> Check if stack is empty
-
-
-
-
-
-*/
+ 
 
 
 // ======== Stack Template ========
@@ -36,10 +17,7 @@ class Stack {
 public :
 
     // Constructor : start with an empty stack
-    Stack() {
-        top = nullptr ;
-        size = 0 ;
-    }
+    Stack() { top = nullptr ;  size = 0 ;  }
 
     // Destructor : free all nodes from memory
     ~Stack() {
@@ -90,7 +68,6 @@ public :
 
     // ===== Peek : View top item without removing it =====
     Node<T>* peek() { return top ;}
-
 
     // ===== Getters =====
     int getSize() { return size ; }
